@@ -8,3 +8,4 @@
 
 - Benchmark your NoSQL Database
   - <https://www.youtube.com/watch?v=rLx2uJCeJKk>
+  - <https://github.com/DataStax-Academy/nosqlbench-workshop-online>
