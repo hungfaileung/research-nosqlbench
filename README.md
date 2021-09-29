@@ -2,4 +2,6 @@
 
 ## Resources
 
-- NoSQLBench demo - Designing Test Workloads | David Joy (<https://www.youtube.com/watch?v=jHZeGy_ZHcU>)
+- NoSQLBench demo - Designing Test Workloads | David Joy 
+  - <https://www.youtube.com/watch?v=jHZeGy_ZHcU>
+  - <https://github.com/david-joy-ds/NosqlBench>
