@@ -12,4 +12,6 @@
   - <https://www.youtube.com/watch?v=jHZeGy_ZHcU>
   - <https://github.com/david-joy-ds/NosqlBench>
 
-
+- #7 Testing your Application
+  - same materials as "Benchmark your NoSQL Database", but different speakers
+  - <https://www.youtube.com/watch?v=rcyetfquNq4>
