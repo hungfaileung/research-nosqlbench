@@ -18,3 +18,7 @@
 - #7 Testing your Application
   - same materials as "Benchmark your NoSQL Database", but different speakers
   - <https://www.youtube.com/watch?v=rcyetfquNq4>
+
+## Firestore Testing
+
+- <https://cloud.google.com/firestore/docs/use-rest-api>
