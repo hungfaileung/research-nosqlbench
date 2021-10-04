@@ -23,3 +23,4 @@
 
 - <https://cloud.google.com/firestore/docs/use-rest-api>
 - <https://developers.google.com/identity/protocols/oauth2/service-account#httprest>
+- <https://developers.google.com/spectrum-access-system/guides/authorization-and-authentication>
