@@ -22,3 +22,4 @@
 ## Firestore Testing
 
 - <https://cloud.google.com/firestore/docs/use-rest-api>
+- <https://developers.google.com/identity/protocols/oauth2/service-account#httprest>
