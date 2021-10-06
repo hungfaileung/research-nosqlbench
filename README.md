@@ -35,3 +35,7 @@
   --data '{"fields":{"name":{"stringValue":"gary"}}}' \
   --compressed
 ```
+
+```
+java -jar nb.jar run driver=http workload=test.yaml cycles=2
+```
