@@ -39,3 +39,14 @@
 ```
 java -jar nb.jar run driver=http workload=test.yaml cycles=2
 ```
+
+- test.yaml
+```
+statements:
+    - testing:
+      method: 'POST'
+      uri: 'https://firestore.googleapis.com/v1/projects/sixth-storm-328014/databases/(default)/documents/users?documentId=testgary'
+      Content-Type: 'application/json'
+      Authorization: 'Bearer [your token]'
+      body: '{"fields":{"name":{"stringValue":"gary"}}}'
+```
