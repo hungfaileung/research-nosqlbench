@@ -50,3 +50,25 @@ statements:
       Authorization: 'Bearer [your token]'
       body: '{"fields":{"name":{"stringValue":"gary"}}}'
 ```
+
+
+
+
+```
+java -jar nb.jar run driver=http workload=test.yaml cycles=10000 threads=auto
+```
+
+```
+statements:
+    - testing:
+      method: 'POST'
+      uri: 'https://firestore.googleapis.com/v1/projects/[your project]/databases/(default)/documents/users?documentId=testgary{alpha}'
+      Content-Type: 'application/json'
+      Authorization: 'Bearer [your token]'
+      body: '{"fields":{"name":{"stringValue":"gary{alpha}" }}}'
+bindings:
+ alpha: Identity()
+ beta: NumberNameToString()
+ gamma: Combinations('0-9A-F;0-9;A-Z;_;p;r;o;')
+ delta: WeightedStrings('one:1;six:6;three:3;')
+```
